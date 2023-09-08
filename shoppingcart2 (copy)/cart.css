@@ -1,0 +1,128 @@
+.item_title{
+    padding:2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height:50%;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top:-5px;
+    
+}
+.disp{
+    margin-top: 5%;
+    position: absolute;
+}
+.disp>div{
+    background-color: rgb(250, 235, 215);
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    color:gray;
+    /* height:50px; */
+}
+
+.cat_title{
+    text-align: center;
+    padding:1%;
+    border: 2px;
+    border-style: solid;
+    width:20px; 
+    height:20px;
+    border-radius: 8px;
+    margin:5%;
+    margin-left:0;
+    margin-right:11%; 
+    border-color: rgb(151, 145, 145);
+    color: rgb(151, 145, 145);
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    display: flex;
+    flex:2;
+   
+} 
+#shop-area{
+    
+    margin-left:2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+   
+}
+#shopping{
+    margin-top: auto;
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+   
+
+}
+#cart_style{
+
+    display: flex;
+    flex-direction: column;
+    border-left: solid;
+    position: relative;
+    padding: 10%;
+    padding-top: 5%;
+    padding-left:8%;
+    width: 30vw;
+    height:100%;
+    
+    
+}
+.cart_internal{
+    display:flex;
+    position:relative;
+    left:-40px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cart_internal>h3{
+    width:50px;
+    margin:10px;
+}
+
+.amt{
+    position: relative;
+    right: -40px;
+}
+#name{
+    position: relative;
+    left: -25px;
+}
+#del_button,.trash{
+
+    position: relative;
+    height:50px;
+    width: 50px;
+    right:-100px;
+}
+.add, .sub{
+    position:absolute;
+    height:30px;
+    width: 30px;
+    right: -100px;
+}
+#del_button,.trash, .add, .sub{
+    position:relative;
+    /* /padding-left:1%; */
+    /* left:200px; */
+
+
+}
+
